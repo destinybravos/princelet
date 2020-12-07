@@ -1,4 +1,25 @@
 <template>
+    <panel-layout>
+        <div>
+            Welcome to my Dashboard
+        </div>
+    </panel-layout>
+</template>
+
+<script>
+    import PanelLayout from '@/Layouts/PanelLayout'
+    import Welcome from '@/Components/Welcome'
+
+    export default {
+        components: {
+            PanelLayout,
+            Welcome,
+        },
+    }
+</script>
+
+
+<!--<template>
     <app-layout>
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
