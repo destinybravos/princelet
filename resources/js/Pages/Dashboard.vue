@@ -1,5 +1,12 @@
 <template>
     <panel-layout>
+        <!-- Heading slotted into Panel Layout -->
+        <template #header>
+            <h2 class="font-semibold text-xl text-light leading-tight flex-1 pt-2">
+                Page Name 
+            </h2>
+        </template>
+
         <div>
             Welcome to my Dashboard
         </div>
